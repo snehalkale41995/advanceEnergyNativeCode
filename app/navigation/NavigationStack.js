@@ -8,6 +8,9 @@ const RNApp = createStackNavigator(
   {
     Login: {
       screen: Login,
+      navigationOptions: {
+        header: null,
+      }
     },
     Home: {
       screen: Home,
